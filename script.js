@@ -59,7 +59,7 @@ var json = {
                     choices: [
                         "$ git ls", "$ git branch", "$ git submit"
                     ],
-                    correctAnswer: "git branch"
+                    correctAnswer: "$ git branch"
                 }
             ]
         }, {

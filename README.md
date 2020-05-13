@@ -2,9 +2,9 @@
 
 
 
-<!-- create the layout -->
-<!-- create a working button that starts a timer -->
-<!-- once timer starts, you are taken to your questions -->
+<!-- create the layout --> yup
+<!-- create a working button that starts a timer --> yup
+<!-- once timer starts, you are taken to your questions --> 
 <!-- create arrays of questions with answers -->
 <!-- if else statements -->
 <!-- timer penalty (and next question) when question is answered wrong -->

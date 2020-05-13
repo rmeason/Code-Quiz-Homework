@@ -24,8 +24,8 @@ Survey
 var json = {
     title: "Basic Code Quiz",
     showProgressBar: "bottom",
-    showTimerPanel: 5,
-    maxTimeToFinish: 5,
+    showTimerPanel: 75,
+    maxTimeToFinish: 75,
     firstPageIsStarted: true,
     startSurveyText: "Start Quiz!",
     pages: [

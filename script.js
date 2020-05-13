@@ -3,7 +3,7 @@
 
 function myFunction() {
 
-    var timeleft = 5;
+    var timeleft = 75;
     var quizTimer = setInterval(function(){
     timeleft--;
     document.getElementById("countdowntimer").textContent = timeleft;
@@ -16,25 +16,24 @@ function myFunction() {
 
 //quiz layout
 
-
 Survey
+//change style from 'modern' to 'darkrose'
     .StylesManager
-    .applyTheme("modern");
+    .applyTheme("darkrose");
 
 var json = {
     title: "Basic Code Quiz",
     showProgressBar: "bottom",
-    showTimerPanel: "top",
-    maxTimeToFinishPage: 300,
-    maxTimeToFinish: 300,
+    showTimerPanel: 5,
+    maxTimeToFinish: 5,
     firstPageIsStarted: true,
-    startSurveyText: "Start Quiz",
+    startSurveyText: "Start Quiz!",
     pages: [
         {
             questions: [
                 {
                     type: "html",
-                    html: "You are about to start a quiz by novice coder Michael! <br/>You have 300 seconds to complete the whole survey of 3 questions.<br/>Please click on <b>'Start Quiz!'</b> button when you are ready."
+                    html: "You are about to start a quiz by novice coder Michael! <br/>You have 75 seconds to complete the whole survey of 3 questions.<br/>Please click on <b>'Start Quiz!'</b> button when you are ready."
                 }
             ]
         }, {
@@ -63,7 +62,7 @@ var json = {
                 }
             ]
         }, {
-            maxTimeToFinish: 15,
+            maxTimeToFinish: 5,
             questions: [
                 {
                     type: "radiogroup",
@@ -88,7 +87,7 @@ survey
     .add(function (result) {
         document
             .querySelector('#results')
-            .textContent = "Result JSON:\n" + JSON.stringify(result.data, null, 3);
+            .textContent = "Results:\n" + alert("Quiz Over!" [window.location.reload()] );
     });
 
 $("#quiz").Survey({model: survey});
@@ -102,14 +101,13 @@ $("#quiz").Survey({model: survey});
 
 
 //variable and values
-var $quiz = {
-  "Using Git Bash, list all of the branches.": "$ git branch",
-  "HTML stands for: ": "Hypertext Markup Language",
-  "CSS stands for: ": "Cascading Style Sheets",
-  "Where inside which HTML element do we put the JavaScript?": "In a script tag",
-  "How can you add a comment in a JavaScript?": "//",
-
-};
+//var $quiz = {
+//"Using Git Bash, list all of the branches.": "$ git branch",
+  //"HTML stands for: ": "Hypertext Markup Language",
+  //"CSS stands for: ": "Cascading Style Sheets",
+  //"Where inside which HTML element do we put the JavaScript?": "In a script tag",
+  //"How can you add a comment in a JavaScript?": "//",
+//};
 
 
 

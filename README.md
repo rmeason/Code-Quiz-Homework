@@ -13,6 +13,7 @@
 <!-- Alert when timer reaches 0 -->
 <!-- the alert is "the game is over" -->
 <!-- create a method to save initials and score -->
+<!-- making adjustments to the alert-->
 
 
 <!--check gandolf activity-->

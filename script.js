@@ -3,20 +3,16 @@
 
 function myFunction() {
 
-    var timeleft = 600;
+    var timeleft = 5;
     var quizTimer = setInterval(function(){
     timeleft--;
     document.getElementById("countdowntimer").textContent = timeleft;
     if(timeleft <= 0)
 
-        alert('Quiz Over!');
-
+        alert('Quiz Over!' [window.location.reload()] );
+        
     },1000);
-
-
-
-}
-
+};
 
 
 

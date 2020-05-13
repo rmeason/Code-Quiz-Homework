@@ -15,6 +15,8 @@
 <!-- create a method to save initials and score -->
 <!-- making adjustments to the alert-->
 
+got the alert to delay long enough to see your results
+
 
 <!--check gandolf activity-->
 

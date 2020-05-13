@@ -87,7 +87,10 @@ survey
     .add(function (result) {
         document
             .querySelector('#results')
-            .textContent = "Results:\n" + alert("Quiz Over!" [window.location.reload()] );
+            .textContent = "Results:\n";
+            
+            setTimeout(function() { alert("Results:\n" [window.location.reload()]); }, 1000);
+
     });
 
 $("#quiz").Survey({model: survey});

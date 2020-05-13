@@ -11,20 +11,27 @@
 <body>
     
 
+
     <div class="container">
-            <div class="row">
-              <div class="col" id="col1">view highscores</div>
-              <div class="col" id="col2"> time: </div>
-            </div>
-            <div class="row">
-                <h2 id="question"></h2>
-            </div>
-            <div class="row">
-                <h3 id="buttons"></h3>
-            </div>
-            <div class="row">
-                <h4 id="result"></h4>
-            </div>
+        <div class="row">
+            <div class="col" id="col1">view highscores</div>
+                <div class="col" id="col2"> time: 
+                
+                    <button onclick="setTimeout(myFunction())">Start Quiz!</button>
+
+                    <p><span id="countdowntimer">600 </span> Seconds Left</p>
+
+                </div>
+                </div>
+                <div class="row">
+                    <h2 id="question"></h2>
+                </div>
+                <div class="row">
+                     <h3 id="buttons"></h3>
+                </div>
+                <div class="row">
+                    <h4 id="result"></h4>
+                </div>
     </div>
 
 
@@ -33,16 +40,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
-
-<!-- create the layout -->
-<!-- create a working button that starts a timer -->
-<!-- once timer starts, you are taken to your questions -->
-<!-- create arrays of questions with answers -->
-<!-- if else statements -->
-<!-- timer penalty (and next questioin) when question is answered wrong -->
-<!-- next question (and addition to score) when question is answered right -->
-<!-- Alert when all questions are done -->
-<!-- Alert when timer reaches 0 -->
-<!-- the alert is "the game is over" -->
-<!-- create a method to save initials and score -->
